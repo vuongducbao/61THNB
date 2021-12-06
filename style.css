@@ -1,0 +1,285 @@
+* {
+    width: auto;
+}
+body{
+    font-family: "Roboto","Arial",sans-serif;
+
+}
+header{
+    display: block;
+    height: 56px;
+    margin-top: 0px;
+    /* position: fixed;
+    z-index: 1; */
+    
+}
+header .icon-bar{
+    display: inline;
+    font-size: 24px;
+    float:left;
+    width: 5%;
+    margin-top: 8px;
+    margin-left: 24px;
+
+
+}
+header .logo{
+    
+}
+header .logo img{
+    
+    /* height: 46px; */
+    font-size: 20px;
+   
+    float: left;
+    width: 10%;
+    margin-top: -12px ;
+    margin-left: -32px ;
+}
+header .search{
+    
+    float: left;
+    width: 55%;
+    display: inline;
+    margin-left:  100px;
+    margin-right: 70px;
+
+}
+header .search  .icon-keyboard{
+   
+    float:left;
+    width: 7%;
+    
+    font-size: 20px;
+
+
+}
+header .search .text-search {
+    
+                
+    
+    float: left;
+    max-width: 80%;
+    
+   
+    
+
+}
+header .search .text-search input{
+    width: 550px;
+    padding: 7px;
+    position: relative;
+    
+    /* height: 36px; */
+    font-size: 20px;
+    
+}
+header .search .btn-search{
+    float: left;
+    width: 10%; 
+    border:solid 1px rgba(114, 114, 114, 0.867);
+    
+    
+    
+}
+header .search .btn-search .icon-search{
+    font-size: 20px;
+    padding: 9px;
+    border-radius: 0px;
+    background-color:#eeeeee ;
+    
+}
+.search.icon-micro-search{
+    float: left;
+    width: 7%; 
+    
+    border:none;
+    
+    
+
+    
+
+}
+.search .icon-micro{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #eeee;
+    border-radius: 25px;
+    margin-left: 10px;
+    
+
+}
+header .app{
+    width : 3%;
+    float: left;
+
+}
+header .app .icon-app{
+    font-size: 20px;
+    padding: 10px;
+    color:#3b3b3b;
+
+}
+header .set{
+    display: inline;
+    width: 3%;
+    float: left;
+
+
+}
+header .set .icon-set{
+    font-size: 20px;
+    padding: 10px;
+    color:#3b3b3b;
+
+
+}
+.main #sitebar .site-login .login,
+header .login{
+
+  
+    float: left;
+    border: solid 1px #065fd4;
+    display: inline;
+    text-align: center;
+    line-height: 1;
+    background-color: #fff;
+    
+   
+    
+  
+    
+}
+.main #sitebar .site-login .login .icon-login,
+header .icon-login{
+    font-size: 24px;
+   
+    margin-top: 12px;
+    /* padding:0px; */
+    margin-left:  4px;
+    margin-right: 8px;
+    float: left;
+    color: #065fd4;
+    /* text-align: center; */
+
+}
+.main #sitebar .site-login .login .text-login,
+header  .text-login{
+    margin-right: 4px;
+    /* padding:0px 4px; */
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    color: #065fd4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.main{
+
+}
+.main #sitebar{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    overflow-y: scroll ;
+    /* position: fixed;
+    z-index: 1; */
+
+
+}
+.main .sitebar-menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+
+}
+.main .sitebar-menu .site-settings ,
+/* .main .sitebar-menu .site-browse, */
+.main .sitebar-menu  .site-more ,
+.main .sitebar-menu .site-best,
+.main .sitebar-menu .site-icon-header{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.main .sitebar-menu .site-browse{
+    display: flex;
+    flex-direction: row;
+}
+.main .sitebar-menu .site-icon-sec{
+    display: flex;
+    flex-direction: column;
+
+}
+.main .sitebar-menu .site-login{
+    margin-left: 24px;
+    margin-right: 12px;
+
+    
+
+}
+
+.main .sitebar-menu .site-best .icon-music,
+.main .sitebar-menu .site-best .icon-sport,
+.main .sitebar-menu .site-best .icon-gaming,
+.main .sitebar-menu .site-best .icon-new,
+.main .sitebar-menu  .site-best .icon-live,
+.main .sitebar-menu  .site-more .icon-live,
+.main .sitebar-menu .site-best .icon-360,
+.main .sitebar-menu .site-browse .icon-browse,
+.main .sitebar-menu .site-settings .icon-set,
+.main .sitebar-menu .site-settings .icon-report,
+.main .sitebar-menu .site-settings .icon-help,
+.main .sitebar-menu .site-settings .icon-send,
+
+.main .sitebar-menu .site-icon-header .icon-home,
+.main .sitebar-menu .site-icon-header .icon-ex,
+.main .sitebar-menu .site-icon-header .icon-sub,
+.main .sitebar-menu .site-icon-sec  .icon-lib,
+.main .sitebar-menu .site-icon-sec  .icon-his{
+    /* font-size: 24px; */
+    float:left;
+    width: 20%;
+    margin-top:10px;
+    margin-left: 24px;
+   
+}
+.main .sitebar-menu .site-best >p,
+.main .sitebar-menu .site-browse >p,
+.main .sitebar-menu .site-settings >p,
+.main .sitebar-menu .site-more  >p,
+.main .sitebar-menu .site-icon-sec> p,
+.main .sitebar-menu .site-icon-header> p{
+    float:left;
+    width: 80%;
+   
+}
+.main .sitebar-menu .site-more >h4,
+.main .sitebar-menu .site-best >h4
+{
+    color:#7c7878;
+    margin-left: 24px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+hr{
+    width: 230px;
+    color:#fffbfb;
+}
+.main .sitebar-menu .site-footer >h5,
+.main .sitebar-menu .site-footer >p{
+    margin-left: 24px;
+    margin-right: 8px;
+    color:#7c7878;
+    word-spacing: 4px;
+    font-size: 12px;
+}
+
+
+
+    
